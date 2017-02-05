@@ -5,6 +5,7 @@
   "description": "Merge objects using descriptors.",
   "main": "index.js",
   "scripts": {
+    "eslint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/togana/merge-descriptors/issues"
   },
-  "homepage": "https://github.com/togana/merge-descriptors#readme"
+  "homepage": "https://github.com/togana/merge-descriptors#readme",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
 }
