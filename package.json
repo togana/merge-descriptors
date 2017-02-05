@@ -5,7 +5,7 @@
   "description": "Merge objects using descriptors.",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint .",
+    "eslint": "eslint --cache .",
     "test": "mocha --reporter spec --check-leaks test/"
   },
   "repository": {
