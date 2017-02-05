@@ -1,0 +1,20 @@
+{
+  "private": "true",
+  "name": "merge-descriptors",
+  "version": "0.0.1",
+  "description": "Merge objects using descriptors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/togana/merge-descriptors.git"
+  },
+  "author": "togana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/togana/merge-descriptors/issues"
+  },
+  "homepage": "https://github.com/togana/merge-descriptors#readme"
+}
