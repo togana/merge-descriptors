@@ -6,3 +6,5 @@ machine:
 test:
   override:
     - npm run test-ci
+  post:
+    - bash <(curl -s https://codecov.io/bash)
